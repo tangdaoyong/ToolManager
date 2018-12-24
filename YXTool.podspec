@@ -10,7 +10,7 @@ yunxi ToolManager.
 s.homepage = "https://github.com/tangdaoyong/ToolManager"
 s.license = { :type => "MIT", :file => "LICENSE" }
 s.author = { "Simple" => "1130275213@qq.com" }
-s.source = { :git => "https://github.com/tangdaoyong/ToolManager", :tag => s.version }
+s.source = { :git => "https://github.com/tangdaoyong/ToolManager.git", :tag => s.version }
 s.requires_arc = true
 s.frameworks = 'Foundation','UIKit'
 s.source_files = 'ToolManager/Tool/*'
