@@ -15,6 +15,7 @@
 		E01E6E6321CC8AE500A9B12A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E01E6E6121CC8AE500A9B12A /* LaunchScreen.storyboard */; };
 		E01E6E6E21CC8AE500A9B12A /* ToolManagerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E01E6E6D21CC8AE500A9B12A /* ToolManagerTests.swift */; };
 		E01E6E7921CC8AE500A9B12A /* ToolManagerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E01E6E7821CC8AE500A9B12A /* ToolManagerUITests.swift */; };
+		E01E6E8821CC8BAE00A9B12A /* DecimalNumberTool.swift in Sources */ = {isa = PBXBuildFile; fileRef = E01E6E8721CC8BAE00A9B12A /* DecimalNumberTool.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		E01E6E7421CC8AE500A9B12A /* ToolManagerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ToolManagerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E01E6E7821CC8AE500A9B12A /* ToolManagerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToolManagerUITests.swift; sourceTree = "<group>"; };
 		E01E6E7A21CC8AE500A9B12A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E01E6E8721CC8BAE00A9B12A /* DecimalNumberTool.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DecimalNumberTool.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +101,7 @@
 		E01E6E5421CC8AE300A9B12A /* ToolManager */ = {
 			isa = PBXGroup;
 			children = (
+				E01E6E8621CC8B1000A9B12A /* Tool */,
 				E01E6E5521CC8AE300A9B12A /* AppDelegate.swift */,
 				E01E6E5721CC8AE300A9B12A /* ViewController.swift */,
 				E01E6E5921CC8AE300A9B12A /* Main.storyboard */,
@@ -126,6 +129,14 @@
 				E01E6E7A21CC8AE500A9B12A /* Info.plist */,
 			);
 			path = ToolManagerUITests;
+			sourceTree = "<group>";
+		};
+		E01E6E8621CC8B1000A9B12A /* Tool */ = {
+			isa = PBXGroup;
+			children = (
+				E01E6E8721CC8BAE00A9B12A /* DecimalNumberTool.swift */,
+			);
+			path = Tool;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -259,6 +270,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E01E6E8821CC8BAE00A9B12A /* DecimalNumberTool.swift in Sources */,
 				E01E6E5821CC8AE300A9B12A /* ViewController.swift in Sources */,
 				E01E6E5621CC8AE300A9B12A /* AppDelegate.swift in Sources */,
 				E01E6E5E21CC8AE300A9B12A /* ToolManager.xcdatamodeld in Sources */,
